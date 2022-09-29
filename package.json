@@ -1,0 +1,16 @@
+{
+  "name": "coding",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/shofukuhara/coding.git",
+  "author": "shofukuhara <sho.fukuhara0213@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "sass": "sass 02/src/scss/style.scss:02/src/css/style.css",
+    "watch:sass": "sass --watch 02/src/scss/style.scss 02/src/css/style.css"
+  },
+  "dependencies": {
+    "sass": "^1.55.0",
+    "watch": "^1.0.2"
+  }
+}
