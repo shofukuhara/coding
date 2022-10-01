@@ -190,18 +190,23 @@ ul {
 .company {
   display: flex;
   align-items: center;
+  height: 750px;
   position: relative;
   &__text {
-    width: 40%;
-    padding: 40px 80px;
+    position: absolute;
+    width: 50%;
     background-color: #8e8e8e;
+    padding: 100px 8% 100px 6%;
+    top: 0;
+    left: 0;
   }
   &__img {
-    width: 50%;
+    width: 53%;
     position: absolute;
-    right: 4%;
+    top: 55px;
+    right: 0;
     img {
-      width: 600px;
+      width: 100%;
       height: 400px;
     }
   }
@@ -215,5 +220,15 @@ ul {
       width: 60%;
       margin: 0;
     }
+  }
+}
+
+.footer {
+  background-color: #ffffff;
+  padding: 20px 0;
+  &__flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
