@@ -1,0 +1,12 @@
+@use "../base/reset";
+@use "../base/mixin" as m;
+@use "../base/variable" as v;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-weight: 1.6rem;
+  color: #333;
+}

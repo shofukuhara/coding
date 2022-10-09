@@ -1,224 +1,60 @@
 <!DOCTYPE html>
 <html lang="ja">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/css/style.css">
-  <title>04</title>
-</head>
-
-<body>
-  <header class="header">
-    <h1 class="headerr__logo">LOGO</h1>
-    <nav class="header__nav">
-      <ul class="header__list">
-        <li class="header__list-item">
-          <a href="#">list</a>
-        </li>
-        <li class="header__list-item">
-          <a href="#">list</a>
-        </li>
-        <li class="header__list-item">
-          <a href="#">list</a>
-        </li>
-        <li class="header__list-item">
-          <a href="#">list</a>
-        </li>
-        <li class="header__list-item">
-          <a href="#">list</a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <div class="pick wrapper">
-    <article class="pick__item">
-      <img src="src/img/noimage.png" alt="">
-      <h2 class="pick__item-text">テキストテキストテキスト</h2>
-      <a href="#">link</a>
-    </article>
-    <article class="pick__item">
-      <img src="src/img/noimage.png" alt="">
-      <h2 class="pick__item-text">テキストテキストテキスト</h2>
-      <a href="#">link</a>
-    </article>
-    <article class="pick__item">
-      <img src="src/img/noimage.png" alt="">
-      <h2 class="pick__item-text">テキストテキストテキスト</h2>
-      <a href="#">link</a>
-    </article>
-  </div>
-  <div class="flex">
-    <main>
-      <article>
-        <a href="#">
-          <h2 class="article__title">テキストテキストテキスト</h2>
-          <div class="article__flex">
-            <span class="article__date">2022.10.02</span>
-            <span class="article__01">カテゴリ1</span>
-          </div>
-          <img src="src/img/noimage.png" alt="">
-        </a>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <a href="#">link</a>
-      </article>
-      <article>
-        <a href="#">
-          <h2 class="article__title">テキストテキストテキスト</h2>
-          <div class="article__flex">
-            <span class="article__date">2022.10.02</span>
-            <span class="article__01">カテゴリ2</span>
-          </div>
-          <img src="src/img/noimage.png" alt="">
-        </a>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <a href="#">link</a>
-      </article>
-      <article>
-        <a href="#">
-          <h2 class="article__title">テキストテキストテキスト</h2>
-          <div class="article__flex">
-            <span class="article__date">2022.10.02</span>
-            <span class="article__01">カテゴリ3</span>
-          </div>
-          <img src="src/img/noimage.png" alt="">
-        </a>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <a href="#">link</a>
-      </article>
-    </main>
-    <aside>
-      <section class="profile">
-        <img src="src/img/noimage.png" alt="">
-        <h3 class="sectitle">Name</h3>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-      </section>
-      <section class="ranking">
-        <h3 class="sectitle">Ranking</h3>
-        <article>
-          <a href="#">
-            <img src="src/img/noimage.png" alt="">
-            <p>テキストテキストテキスト</p>
-          </a>
-        </article>
-        <article>
-          <a href="#">
-            <img src="src/img/noimage.png" alt="">
-            <p>テキストテキストテキスト</p>
-          </a>
-        </article>
-        <article>
-          <a href="#">
-            <img src="src/img/noimage.png" alt="">
-            <p>テキストテキストテキスト</p>
-          </a>
-        </article>
-      </section>
-      <section class="archive">
-        <h3 class="sectitle">Archive</h3>
-        <ul class="archive__list">
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
-          <li class="archive__list">
-            <a href="#">2022.10月</a>
-          </li>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>04</title>
+  </head>
+  <body>
+    <header>
+      <div class="header__logo wrapper">
+        <h1>LOGO</h1>
+      </div>
+      <nav class="header__nav">
+        <ul class="header__list wrapper">
+          <li class="header__list-item"><a class="header__list-link" href="#">list</a></li>
+          <li class="header__list-item"><a class="header__list-link" href="#">list</a></li>
+          <li class="header__list-item"><a class="header__list-link" href="#">list</a></li>
+          <li class="header__list-item"><a class="header__list-link" href="#">list</a></li>
         </ul>
-      </section>
-    </aside>
-  </div>
-  <footer>
-    <div class="wrapper">
-      <section class="about">
-        <h3 class="footer__title">About</h3>
-        <p>
-          テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト
-        </p>
-        <ul class="about__list">
-          <li class="about__item">
-            <a href="#">list</a>
-          </li>
-          <li class="about__item">
-            <a href="#">list</a>
-          </li>
-          <li class="about__item">
-            <a href="#">list</a>
-          </li>
-        </ul>
-      </section>
-      <section class="menu">
-        <h3 class="footer__title">Menu</h3>
-        <ul class="menu__list">
-          <li class="menu__item">
-            <a href="#">list</a>
-          </li>
-          <li class="menu__item">
-            <a href="#">list</a>
-          </li>
-          <li class="menu__item">
-            <a href="#">list</a>
-          </li>
-          <li class="menu__item">
-            <a href="#">list</a>
-          </li>
-          <li class="menu__item">
-            <a href="#">list</a>
-          </li>
-        </ul>
-      </section>
-      <section class="company">
-        <h3 class="footer__title">Company</h3>
-        <ul class="company__list">
-          <li class="company__item">
-            <a href="#">list</a>
-          </li>
-          <li class="company__item">
-            <a href="#">list</a>
-          </li>
-          <li class="company__item">
-            <a href="#">list</a>
-          </li>
-          <li class="company__item">
-            <a href="#">list</a>
-          </li>
-          <li class="company__item">
-            <a href="#">list</a>
-          </li>
-        </ul>
-      </section>
-
-    </div>
-  </footer>
-</body>
-
+      </nav>
+    </header>
+  </body>
 </html>
+<div class="pickup wrapper">
+  <article class="pickup__item"><img src="src/img/noimage.png" alt=""><strong>タイトルテキストテキストテキストテキストテキストテキストテキスト</strong><a class="link" href="#">more</a></article>
+  <article class="pickup__item"><img src="src/img/noimage.png" alt=""><strong>タイトルテキストテキストテキストテキストテキストテキストテキスト</strong><a class="link" href="#">more</a></article>
+  <article class="pickup__item"><img src="src/img/noimage.png" alt=""><strong>タイトルテキストテキストテキストテキストテキストテキストテキスト</strong><a class="link" href="#">more</a></article>
+</div>
+<div class="continer wrapper">
+  <main>
+    <article class="article__item">
+      <h2 class="sectitle">タイトルテキストテキストテキストテキストテキスト</h2>
+      <ul class="article__box">
+        <li class="article__date"><a href="#">2022.10.10</a></li>
+        <li class="article__date"><a href="#">カテゴリー</a></li>
+      </ul><img src="src/img/noimage.png" alt="">
+      <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p><a class="link" href="#">more</a>
+    </article>
+    <article class="article__item">
+      <h2 class="sectitle">タイトルテキストテキストテキストテキストテキスト</h2>
+      <ul class="article__box">
+        <li class="article__date"><a href="#">2022.10.10</a></li>
+        <li class="article__date"><a href="#">カテゴリー</a></li>
+      </ul><img src="src/img/noimage.png" alt="">
+      <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p><a class="link" href="#">more</a>
+    </article>
+    <article class="article__item">
+      <h2 class="sectitle">タイトルテキストテキストテキストテキストテキスト</h2>
+      <ul class="article__box">
+        <li class="article__date"><a href="#">2022.10.10</a></li>
+        <li class="article__date"><a href="#">カテゴリー</a></li>
+      </ul><img src="src/img/noimage.png" alt="">
+      <p>本文テキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキストテキストテキスト</p><a class="link" href="#">more</a>
+    </article>
+  </main>
+  <aside> </aside>
+</div>
+<footer></footer>
