@@ -7,6 +7,36 @@ html {
 }
 
 body {
-  font-weight: 1.6rem;
+  font-size: 1.6rem;
   color: #333;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  &__logo {
+    padding: 40px 0px 40px 40px;
+    font-size: 3rem;
+  }
+  &__nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  &__list {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    &-item {
+      margin-right: 40px;
+    }
+    &-link {
+      color: #fff;
+    }
+  }
 }
